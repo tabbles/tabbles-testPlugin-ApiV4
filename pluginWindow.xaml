@@ -1,0 +1,52 @@
+﻿<Window x:Class="testPlugin.myWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:testPlugin"
+             mc:Ignorable="d" 
+        Closing="Window_Closing"
+        Closed="Window_Closed"
+        Title="My Plugin UI 2"
+             Width="500">
+    <TabControl>
+        <TabItem Header="Event listener">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap">Events received from main application 2: </TextBlock>
+                <TextBox Name="txtLog" Margin="4,4" Grid.Row="1"></TextBox>
+
+        
+            </Grid>
+        </TabItem>
+        <TabItem Header="Tagging example">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock TextWrapping="Wrap">Type a tag name here</TextBlock>
+                <TextBlock TextWrapping="Wrap" Grid.Row="1">Type a file name (will full path) here</TextBlock>
+
+                <TextBox Name="txtTagName" Grid.Column="1" Margin="4">Tag 1</TextBox>
+                <TextBox Name="txtFilePath" Grid.Column="1" Grid.Row="1" Margin="4">C:\users\foo\Documents\test.pdf</TextBox>
+                <Button Grid.ColumnSpan="2" Name="btnTag" Grid.Row="2" Padding="4,4" Margin="4,4" Grid.Column="0" Click="btnTag_Click">Tag this file with this tag</Button>
+                <Button Grid.ColumnSpan="2" Name="btnUntag" Grid.Row="3" Padding="4,4" Margin="4,4" Grid.Column="0" Click="btnUntag_Click">Untag this file from this tag</Button>
+            </Grid>
+            
+        </TabItem>
+    </TabControl>
+
+</Window>
