@@ -1,0 +1,15 @@
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\testPlugin.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\testPlugin.pdb
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\FSharp.Core.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\TaggerLibCSharp.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\TaggerLogic.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin.csprojResolveAssemblyReference.cache
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\pluginWindow.g.cs
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin_MarkupCompile.cache
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin_MarkupCompile.lref
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\pluginWindow.baml
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin.g.resources
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin.dll
+C:\Users\mauri\Documents\software\tabblesPluginExample\obj\Debug\testPlugin.pdb
